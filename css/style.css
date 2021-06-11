@@ -1,6 +1,17 @@
 p{
-    color: pink;
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding-left: 20px;
+    line-height: 1.2;
 }
 td{
-    width: 350px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+h3{
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: firebrick;
+    text-decoration: underline;
+    font-style: italic;
+}
+hr{
+    border-bottom: solid 2px darkviolet;
 }
