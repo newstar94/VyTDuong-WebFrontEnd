@@ -12,15 +12,15 @@ h1{
 }
 .top{
     margin: 0px;
-    width: 800px;
+    width: 700px;
     height: 200px;
     text-align: left;
     background: #bac3cc;
-    padding: 5px;
-    padding-left: 300px;
+    padding: 5px 0px 5px 300px;
 }
 .bottom{
     float: left;
+    width: 1000px;
 }
 .left{
     float: left;
@@ -33,7 +33,7 @@ h1{
 }
 .right{
     float: right;
-    width: 820px;
+    width: 700px;
     margin-left: 30px;
 }
 .ava{
