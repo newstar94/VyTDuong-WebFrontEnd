@@ -1,6 +1,7 @@
-body{
-    width: 1000px;
-    background: #f5f4f4;
+.main{
+    width: 1030px;
+    height: 1050px;
+    background: lightgrey;
 }
 .top{
     float: left;
@@ -9,7 +10,7 @@ body{
     font-size: 20px;
     background: white;
     padding: 20px 0px 20px 35px;
-    margin-bottom: 10px;
+    margin: 30px 30px 15px;
 }
 .buttom{
     width: 1000px;
@@ -37,7 +38,8 @@ p{
 .products{
     float: left;
     width: 220px;
-    margin: 30px 30px 0 0 ;
+    margin: 30px 0px 0px 30px;
+    background: white;
 }
 .img{
     max-width: 100%;
