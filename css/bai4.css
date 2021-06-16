@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+#container1{
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    background-image: url("../images/bai4_header.jpg");
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.header{
+    margin-top: 50px;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 80px;
+    float: left;
+    width: 250px;
+}
+.logo a{
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fcfcfc;
+    line-height: 52.1px;
+}
+.toplinks{
+    margin-top: 30px;
+    float: left;
+    width: 500px;
+}
+.toplinks li{
+    list-style: none;
+    float: left;
+    margin: 15px;
+}
+.toplinks a{
+    color: #fcfcfc;
+    font-size: 16px;
+    text-decoration: none;
+}
+.icon{
+    margin-top: 43px;
+    float: left;
+    margin-left: 80px;
+}
+.icon img{
+    width: 25px;
+    filter: invert(100%);
+}
+.search{
+    margin-left: 80px;
+}
+.slogan {
+    margin-top: -350px;
+    float: left;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Vollkorn', serif;
+    color: #fcfcfc;
+}
+.slogan p{
+    margin-top: 15px;
+    color: #fcfcfc;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.button a{
+    color: #fcfcfc;
+    font-size: 18px;
+    border: solid 1px #fcfcfc;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+    color: #222222;
+    margin: 5px 0;
+}
+.main{
+    background-color: #fcfcfc;
+    padding-top: 50px;
+}
+.page{
+    width: 1200px;
+    margin-left: 150px;
+}
+.content{
+    margin: 20px;
+    float: left;
+    width: 280px;
+    height: 480px;
+}
+.category{
+    margin: 5px 0;
+    color: #959fac;
+}
+.mieuta{
+    margin: 5px 0;
+    color: #575761;
+}
+.content a{
+    margin-top: 10px;
+    color: orange;
+    text-decoration: none;
+}
+.content img{
+    width: 100%;
+}
+.button2 a{
+    width: 180px;
+    float: left;
+    background-color: lightgrey;
+    color: #222222;
+    font-size: 18px;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    margin: 50px 0  50px 560px;
+}
+.txt {
+    line-height: 30px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #222222;
+}
+.icon2{
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.social{
+    padding: 15px 0;
+    height: 30px;
+    border-bottom: solid 1px #bac3cc;
+    margin-left:  350px;
+    margin-right: 210px;
+}
+.social li{
+    list-style: none;
+    float: left;
+}
+.bottomlinks{
+    margin-left: 450px;
+    float: left;
+    margin-right: 300px;
+}
+.bottomlinks li{
+    list-style: none;
+    float: left;
+    margin: 15px;
+}
+.bottomlinks a{
+    color: #222222;
+    font-size: 14px;
+    text-decoration: none;
+}
+#container2{
+    width: 1200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    border-radius: 0 0 15px 15px;
+    background-color: #efefef;
+    margin-bottom: 20px;
+}
+.cuoi{
+    float: left;
+    margin-left: 620px;
+    font-size: 12px;
+}
