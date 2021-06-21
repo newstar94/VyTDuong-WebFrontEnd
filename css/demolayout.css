@@ -2,13 +2,6 @@
     margin:0;
     padding: 0;
 }
-body{
-    font-size: 14px;
-    color:#333333;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    background-color: #fcfcfc;
-}
 .section{
     float: left;
     width: 100%;
