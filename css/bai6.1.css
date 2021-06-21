@@ -53,3 +53,7 @@ a{
     color: white;
     line-height: 30px;
 }
+a:hover{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif !important;
+    background-color: #1b2445 !important;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    float: none;
+}
+.header{
+    position: fixed;
+    height: 80px;
+    background-color: #283763;
+    line-height: 80px;
+    z-index: 1;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.trending{
+    font-size: 18px;
+    color: #2caae5;
+    font-weight: 400;
+    text-decoration: none;
+}
+.trendingtitle{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.main{
+    margin-top: 150px;
+}
+.tag{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #2caae5;
+    font-weight: 400;
+}
+.cover{
+    margin-top: 20px;
+    text-align: center;
+}
+.cover img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.name{
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.singer{
+    font-size: 16px;
+    color: grey;
+    font-weight: 400;
+    text-decoration: none;
+}
+.hot{
+    text-align: center;
+    color: white;
+    padding: 0 200px;
+}
+.col-md-4 p{
+    color: white;
+}
+.download img{
+    margin-top: 5px;
+}
+.footer {
+    margin-top: 50px;
+    border-top: 2px solid #bac3cc;
+}
+.cover a:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+a.logo:hover{
+    color: white;
+    text-decoration: none;
+}
+a.trendingtitle:hover{
+    color: white;
+    text-decoration: none;
+}
+a.trending:hover{
+    color: #2caae5;
+    text-decoration: none;
+}
+.trend{
+    text-align: center;
+    border-top: 2px solid #bac3cc;
+    padding: 30px 0;
+}
+.song {
+    text-align: center;
+    margin-top: -50px;
+    padding: 30px 0;
+    font-size: 40px;
+}
+.audio{
+    margin-top: 5px;
+    text-align: center;
+}
+.lyric{
+    margin: 20px 0;
+    font-size: 20px;
+}
