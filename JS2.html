@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/JS2.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <title>JS 2</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+               <div class="logo col-md-3">
+                   <img src="images/logo-vietlott-300x300.jpg" height="100">
+               </div>
+                <div class="nav col-md-9">
+                    <ul>
+                        <li>
+                            Trang Chủ
+                        </li>
+                        <li>
+                            Chơi
+                        </li>
+                        <li>
+                            Trúng thưởng
+                        </li>
+                        <li>
+                            Đại lý
+                        </li>
+                        <li>
+                            Vietlott SMS
+                        </li>
+                        <li>
+                            Tin Tức
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <img class="background" src="images/vietlott.jpg">
+    </header>
+    <section class="col-md-12">
+        <div class="container">
+            <div class="row">
+                <h1>VIETLOTT T2104E</h1>
+                <div class="col-md-6">
+                    <h2>VUI LÒNG CHỌN SỐ MAY MẮN</h2>
+                    <input id="number" name="number" min="0" max="99" placeholder="Nhập số may mắn" type="number"/>
+                    <button class="btn btn-primary" type="button" onclick="confirm()">Xác nhận</button>
+                    <button class="btn btn-danger" type="button" onclick="test()">Dò số</button>
+                </div>
+                <div class="col-md-6">
+                    <h2>KẾT QUẢ QUAY SỐ</h2>
+                    <span id="kq"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/js2.js"></script>
+</script>
+</body>
+</html>
