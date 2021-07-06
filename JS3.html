@@ -35,14 +35,16 @@
                     p = rs.data.foods;
                     var row = $("#row");
                     for (var i = 0; i < p.length; i++) {
-                        var ct = "<div class=\"col-md-3\">\n" +
-                            "<div class=\"product\">\n" +
-                            "            <img src=\"" + p[i].image + "\"/>\n" +
-                            "            <h2>" + p[i].name + "</h2>\n" +
-                            "            <p>" + p[i].description + "</p>\n" +
-                            "            <h3>" + "$" + p[i].price + "</h3>\n" +
-                            "<a href=\"#\" class=\"pr-details\">product details</a>\n" +
-                            "        </div>" +
+                        var ct = "        <div class=\"col-md-3 height\">\n" +
+                            "          <div class=\"products\">\n" +
+                            "            <img class=\"img\" src=\""+p[i].image+"\">\n" +
+                            "            <h3>"+p[i].name+"</h3>\n" +
+                            "            <p>"+p[i].description+"</p>\n" +
+                            "            <h4>"+p[i].price+"</h4>\n" +
+                            "            <div class=\"button\">\n" +
+                            "              <a href=\"#\">DETAILS</a>\n" +
+                            "            </div>\n" +
+                            "          </div>\n" +
                             "        </div>";
                         row.prepend(ct);
                     }
