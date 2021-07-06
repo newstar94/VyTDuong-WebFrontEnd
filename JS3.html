@@ -29,7 +29,7 @@
         function loadMore() {
             var p = [];
             $.ajax({
-                url: "https://foodgroup.herokuapp.com/api/category/1",
+                url: "data/food.json",
                 method: "GET",
                 success: function (rs) {
                     p = rs.data.foods;
