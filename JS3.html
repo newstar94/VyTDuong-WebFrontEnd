@@ -29,18 +29,18 @@
         function loadMore() {
             var p = [];
             $.ajax({
-                url: "data/food.json",
+                url: "https://foodgroup.herokuapp.com/api/category/1",
                 method: "GET",
                 success: function (rs) {
                     p = rs.data.foods;
                     var row = $("#row");
                     for (var i = 0; i < p.length; i++) {
-                        var ct = "        <div class=\"col-md-3 height\">\n" +
+                        var ct = "        <div class=\"col-md-3\">\n" +
                             "          <div class=\"products\">\n" +
                             "            <img class=\"img\" src=\""+p[i].image+"\">\n" +
                             "            <h3>"+p[i].name+"</h3>\n" +
                             "            <p>"+p[i].description+"</p>\n" +
-                            "            <h4>"+p[i].price+"</h4>\n" +
+                            "            <h4>"+"$ "+p[i].price+"</h4>\n" +
                             "            <div class=\"button\">\n" +
                             "              <a href=\"#\">DETAILS</a>\n" +
                             "            </div>\n" +
