@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bai6.1.css" type="text/css">
+    <title>Bai JS3</title>
+</head>
+<body>
+    <header class="col-md-12">
+    <div class="container">
+        <div class="logo">
+            <h1>MENU</h1>
+        </div>
+    </div>
+    </header>
+    <section class="col-md-12">
+        <div class="container">
+            <div class="row" id="row">
+                <div class="loadmore">
+                    <button class="btn btn-primary" type="button" onclick="loadMore()">Load more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function loadMore() {
+            var p = [];
+            $.ajax({
+                url: "https://foodgroup.herokuapp.com/api/category/1",
+                method: "GET",
+                success: function (rs) {
+                    p = rs.data.foods;
+                    var row = $("#row");
+                    for (var i = 0; i < p.length; i++) {
+                        var ct = "<div class=\"col-md-3\">\n" +
+                            "<div class=\"product\">\n" +
+                            "            <img src=\"" + p[i].image + "\"/>\n" +
+                            "            <h2>" + p[i].name + "</h2>\n" +
+                            "            <p>" + p[i].description + "</p>\n" +
+                            "            <h3>" + "$" + p[i].price + "</h3>\n" +
+                            "<a href=\"#\" class=\"pr-details\">product details</a>\n" +
+                            "        </div>" +
+                            "        </div>";
+                        row.prepend(ct);
+                    }
+                }
+
+            });
+        }
+    </script>
+</body>
+</html>

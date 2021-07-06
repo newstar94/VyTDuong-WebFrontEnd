@@ -1,0 +1,68 @@
+{
+  "message": "success",
+  "data": {
+    "category": {
+      "id": 1,
+      "name": "Burger",
+      "icon": "https://www.lotteria.vn/media/catalog/tmp/category/cate-9_1.jpg"
+    },
+    "foods": [
+      {
+        "id": 1,
+        "name": "Hawaii Burger",
+        "image": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/h/a/hawaii_burger_1_2.jpg",
+        "description": "",
+        "price": 60000
+      },
+      {
+        "id": 2,
+        "name": "Super Jumbo Burger",
+        "image": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/j/u/jumbo-chicken-burger_4.jpg",
+        "description": "",
+        "price": 60000
+      },
+      {
+        "id": 3,
+        "name": "Big Star Burger",
+        "image": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/b/u/burger_bigstar_4.png",
+        "description": "",
+        "price": 56000
+      },
+      {
+        "id": 4,
+        "name": "Burger Gà Thượng Hạng (Premium Chicken Burger)",
+        "image": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/b/u/burger_premium-chicken_4.png",
+        "description": "",
+        "price": 44000
+      },
+      {
+        "id": 5,
+        "name": "Burger Cá (Fish Burger)",
+        "image": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/b/u/burger_fish_5.png",
+        "description": "",
+        "price": 34000
+      },
+      {
+        "id": 6,
+        "name": "Burger Tôm (Shrimp Burger)",
+        "image": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/b/u/burger_shrimp_4.png",
+        "description": "",
+        "price": 47000
+      },
+      {
+        "id": 7,
+        "name": "Mozzarella Burger",
+        "image": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/m/o/mozzarella-burger_5.jpg",
+        "description": "",
+        "price": 60000
+      },
+      {
+        "id": 8,
+        "name": "Burger Bò Teriyaki (Teriyaki Burger)",
+        "image": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/t/e/teriyaki-burger_4.png",
+        "description": "",
+        "price": 31000
+      }
+    ]
+  }
+}
