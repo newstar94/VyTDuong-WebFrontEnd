@@ -22,7 +22,8 @@
     data:{
       q:"Hanoi,vietnam",
       units:"metric",
-      appid:"09a71427c59d38d6a34f89b47d75975c"
+      appid:"09a71427c59d38d6a34f89b47d75975c",
+      lang:"vi"
     },
     success:function (rs){
       $("#temp").text(rs.main.temp);
@@ -33,7 +34,7 @@
       wind.innerHTML=rs.wind.speed;
       for(var i=0;i<rs.weather.length;i++){
         // $("#desc").text(rs.weather[i].main+", "+rs.weather[i].description);
-        desc.innerHTML= rs.weather[i].main + ", " + rs.weather[i].description;
+        desc.innerHTML= rs.weather[i].description;
         icon.src = "https://openweathermap.org/img/w/" + rs.weather[i].icon + ".png";
       }
     }
