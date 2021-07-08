@@ -12,6 +12,7 @@
   <h2>Gió: <span id="wind">13</span>km/h</h2>
   <h2><span id="city">s</span></h2>
   <p><span id="desc">s</span></p>
+  <img src="#" id="icon" height="100">
 </div>
 <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
 <script type="text/javascript">
@@ -26,10 +27,14 @@
     success:function (rs){
       $("#temp").text(rs.main.temp);
       $("#hum").text(rs.main.humidity);
-      $("#wind").text(rs.wind.speed);
-      $("#city").text(rs.name+", "+rs.sys.country);
+      // $("#wind").text(rs.wind.speed);
+      // $("#city").text(rs.name+", "+rs.sys.country);
+      city.innerHTML=rs.name;
+      wind.innerHTML=rs.wind.speed;
       for(var i=0;i<rs.weather.length;i++){
-        $("#desc").text(rs.weather[i].main+", "+rs.weather[i].description);
+        // $("#desc").text(rs.weather[i].main+", "+rs.weather[i].description);
+        desc.innerHTML= rs.weather[i].main + ", " + rs.weather[i].description;
+        icon.src = "https://openweathermap.org/img/w/" + rs.weather[i].icon + ".png";
       }
     }
   })
