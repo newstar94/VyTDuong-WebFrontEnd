@@ -2,9 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/JS5.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <title>JS5</title>
 </head>
 <body>
-
+    <div class="container">
+<!--        Thông tin hiện tại-->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-2">
+                    <img src="#" id="icon" height="100">
+                </div>
+                <div class="col-md-2 main">
+                    <h1><span id="temp">00</span><sup>o</sup>C</h1></div>
+                <div class="col-md-4 main detail">
+                    <div id="hum">Độ ẩm:</div>
+                    <div id="wind">Gió:</div>
+                    <div id="press">Áp suất:</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 id="locat">SG</h2>
+                <div id="des">Nắng</div>
+            </div>
+        </div>
+<!--        Biểu đồ-->
+        <div class="row">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#tempchart" aria-controls="tempchart" role="tab" data-toggle="tab">Nhiệt độ</a></li>
+                <li role="presentation"><a href="#rainchart" aria-controls="rainchart" role="tab" data-toggle="tab">Lượng mưa</a></li>
+                <li role="presentation"><a href="#windchart" aria-controls="windchart" role="tab" data-toggle="tab">Gió</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="tempchart">
+                    Nơi này chứa biểu đồ nhiệt độ
+                </div>
+                <div role="tabpanel" class="tab-pane" id="rainchart">Mưa</div>
+                <div role="tabpanel" class="tab-pane" id="windchart">Gió</div>
+            </div>
+        </div>
+<!--        Thông tin các ngày kế tiếp-->
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/JS5.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
 </html>
