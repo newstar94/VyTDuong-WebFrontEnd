@@ -4,3 +4,9 @@
 .detail{
     margin-top: 20px;
 }
+.min{
+    float: left;
+}
+.max{
+    float: right;
+}
