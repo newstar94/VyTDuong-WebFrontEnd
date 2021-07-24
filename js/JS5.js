@@ -27,6 +27,5 @@ $.ajax({
                 "            </div>";
             row.append(ct);
         }
-
     }
 })
