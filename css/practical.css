@@ -1,0 +1,18 @@
+.header{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: #ff1466;
+    font-size: 50px;
+    text-align: center;
+    transition: 1s;
+}
+.header:hover{
+    transform: scale(1.2);
+    color: red;
+}
+.img{
+    width: 100%;
+}
+.button{
+    text-align: center;
+}

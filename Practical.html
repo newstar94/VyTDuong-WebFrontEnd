@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/practical.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <title>Practical</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="header">MATRIMONIAL SURVEY</header>
+            <div class="col-md-6">
+                <img class="img" src="images/wedding.jpg">
+            </div>
+            <div class="col-md-6">
+                <form action="#">
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="name">Name:</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <label class="control-label col-md-2" for="adress">Adress:</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="adress" required>
+                        </div>
+                        <label class="control-label col-md-2" for="phone">Phone</label>
+                        <div class="col-md-10">
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+                        <label class="control-label col-md-2" for="email">E-mail</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <label class="control-label col-md-2">Gender</label>
+                        <div class="col-md-10">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                        <label class="control-label col-md-2" for="age">Age</label>
+                        <div class="col-md-10">
+                            <input type="number" class="form-control" id="age" required>
+                        </div>
+                        <label class="control-label col-md-2">Qualification</label>
+                        <div class="col-md-10">
+                            <input type="checkbox" id="bca" name="bca" value="bca">
+                            <label for="bca"> BCA</label>
+                            <input type="checkbox" id="ba" name="ba" value="bs">
+                            <label for="ba"> BA</label>
+                            <input type="checkbox" id="bsc" name="bsc" value="bsc">
+                            <label for="bsc"> BSC</label>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Next</button>
+                            <button type="reset">Reset</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/practical.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</html>
