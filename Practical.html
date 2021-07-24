@@ -19,6 +19,7 @@
             <div class="col-md-6">
                 <form action="#">
                     <div class="form-group">
+                        <p>Personal Details</p>
                         <label class="control-label col-md-2" for="name">Name:</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" id="name" required>
@@ -37,9 +38,9 @@
                         </div>
                         <label class="control-label col-md-2">Gender</label>
                         <div class="col-md-10">
-                            <input type="radio" id="male" name="gender" value="male">
+                            <input type="radio" id="male" name="gender" value="male" required>
                             <label for="male">Male</label>
-                            <input type="radio" id="female" name="gender" value="female">
+                            <input type="radio" id="female" name="gender" value="female" required>
                             <label for="female">Female</label>
                         </div>
                         <label class="control-label col-md-2" for="age">Age</label>
@@ -55,6 +56,52 @@
                             <input type="checkbox" id="bsc" name="bsc" value="bsc">
                             <label for="bsc"> BSC</label>
                         </div>
+                        <div class="button">
+                            <button type="submit">Next</button>
+                            <button type="reset">Reset</button>
+                        </div>
+
+                    </div>
+                </form>
+                <form action="#">
+                    <div class="form-group">
+                        <p>Survey questions</p>
+                        <label class="control-label col-md-3">How often</label>
+                        <div class="col-md-9">
+                            <input type="radio" id="Daily" name="often" value="male" required>
+                            <label for="Daily">Daily</label>
+                            <input type="radio" id="Weekly" name="often" value="Weekly" required>
+                            <label for="Weekly">Weekly</label>
+                            <input type="radio" id="Montly" name="often" value="Montly" required>
+                            <label for="Montly">Montly</label>
+                        </div>
+                        <label class="control-label col-md-6" for="site">Which matrimonial site you visit</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="site" required>
+                        </div>
+
+                        <label class="control-label col-md-3">Where you use internet</label>
+                        <div class="col-md-9">
+                            <input type="radio" id="home" name="internet" value="home" required>
+                            <label for="home">Home</label>
+                            <input type="radio" id="office" name="internet" value="office" required>
+                            <label for="office">office</label>
+                            <input type="radio" id="cafe" name="internet" value="cafe" required>
+                            <label for="cafe">cafe</label>
+                        </div>
+
+                        <label class="control-label col-md-3">Are you fell</label>
+                        <div class="col-md-9">
+                            <input type="radio" id="fair" name="fell" value="fair" required>
+                            <label for="home">fair</label>
+                            <input type="radio" id="good" name="fell" value="good" required>
+                            <label for="good">good</label>
+                            <input type="radio" id="verygood" name="fell" value="verygood" required>
+                            <label for="cafe">verygood</label>
+                            <input type="radio" id="excellent" name="fell" value="excellent" required>
+                            <label for="excellent">excellent</label>
+                        </div>
+
                         <div class="button">
                             <button type="submit">Next</button>
                             <button type="reset">Reset</button>
